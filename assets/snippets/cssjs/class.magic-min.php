@@ -346,7 +346,7 @@ class Minifier {
                     
                     //Initiate and execute the curl request
                     $h = curl_init();
-                    curl_setopt( $h, CURLOPT_URL, 'http://closure-compiler.appspot.com/compile' ); 
+                    curl_setopt( $h, CURLOPT_URL, 'https://closure-compiler.appspot.com/compile' ); 
                     curl_setopt( $h, CURLOPT_POST, true );
                     curl_setopt( $h, CURLOPT_POSTFIELDS, $fields_string );
                     curl_setopt( $h, CURLOPT_HEADER, false );
